@@ -32,14 +32,14 @@ body {
 .one {
   font-size: 4.5rem;
   color: #000; /* Black */
-  margin-bottom: 0.5rem; /* Mengurangi jarak di bawah elemen ini */
+  margin-bottom: 0.5rem; 
 }
 
 .two {
   font-size: 1.2rem;
   font-weight: lighter;
   color: #000; /* Black */
-  margin-top: 0; /* Pastikan margin atasnya 0 untuk jarak minimal */
+  margin-top: 0; 
 }
 
 .three {
@@ -62,11 +62,11 @@ body {
   color: #000; /* Black */
 }
 
-/* Responsif untuk layar dengan lebar maksimal 720px (seperti Redmi S2) */
+
 @media (max-width: 720px) {
   .four .text-box {
     width: 90%; /* Lebar 90% dari layar */
-    padding: 8px; /* Mengurangi padding untuk ruang lebih */
+    padding: 8px; 
   }
 }
 
@@ -115,7 +115,7 @@ body {
 
 .six {
   position: relative;
-  top: 5vh; /* Atur lebih kecil untuk menaikkan posisi gambar */
+  top: 5vh; 
   z-index: 1;
 }
 
@@ -126,15 +126,15 @@ body {
   height: auto;
   margin: 0;
   max-height: 400px;
-  border-radius: 20px; /* Menambahkan lengkungan pada samping foto */
-  margin-top: -90px; /* Atur nilai negatif untuk menaikkan posisi gambar */
+  border-radius: 20px; 
+  margin-top: -90px; 
 }
 
 /* Media Queries untuk layar mobile */
 @media screen and (max-width: 600px) {
   .six img {
-    max-width: 90%; /* Mengatur lebar maksimum gambar menjadi 90% untuk layar mobile */
-    max-height: 300px; /* Membatasi tinggi maksimum untuk layar mobile */
+    max-width: 90%; 
+    max-height: 300px; 
   }
 }
 
