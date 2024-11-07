@@ -62,8 +62,8 @@ body {
   color: #000; /* Black */
 }
 
-/* Responsif untuk layar kecil */
-@media (max-width: 768px) {
+/* Responsif untuk layar dengan lebar maksimal 720px (seperti Redmi S2) */
+@media (max-width: 720px) {
   .four .text-box {
     width: 90%; /* Lebar 90% dari layar */
     padding: 8px; /* Mengurangi padding untuk ruang lebih */
